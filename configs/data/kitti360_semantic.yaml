@@ -1,0 +1,19 @@
+# WARNING: fx/fy/cx/cy below are PLACEHOLDER values, not read from any real
+# calibration/perspective.txt. Run scripts/print_kitti360_intrinsics.py against
+# your own KITTI-360 calibration/perspective.txt and paste the real numbers in
+# before running anything. Do not trust these as-is.
+dataset_name: kitti360
+camera_params:
+  image_height: 376
+  image_width: 1408
+  fx: 552.554261
+  fy: 552.554261
+  cx: 682.049453
+  cy: 238.769549
+  png_depth_scale: 1000.0
+sem_mode: tree
+num_tree_level: 2
+use_pyramid: false
+pyramid_level: 4
+basedir_sem: null
+results_dir: null
